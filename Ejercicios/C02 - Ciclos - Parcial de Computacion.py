@@ -1,12 +1,13 @@
-# Ejercicio 3)
-# Dados los padrones y notas de las 5 cátedras del parcial de Computación, realice un programa que indique:
-# a) Padrón de la primera persona que aprobó de cada curso
-# b) Cuantas personas (por curso) obtuvieron esa misma nota que obtuvo el primero que aprobó (de su curso).
-# c) Porcentaje de reprobados general de todas las cátedras.
-# d) Promedio de cada cátedra.
-# Observaciones:
-#     · La cantidad de alumnos por curso es indeterminada inicialmente, debe consultarse al usuario si desea seguir ingresando información o no.
-#     · Se considera aprobado cualquier nota mayor o igual a 4
+'''
+Dados los padrones y notas de las 5 cátedras del parcial de Computación, realice un programa que indique:
+a) Padrón de la primera persona que aprobó de cada curso
+b) Cuantas personas (por curso) obtuvieron esa misma nota que obtuvo el primero que aprobó (de su curso).
+c) Porcentaje de reprobados general de todas las cátedras.
+d) Promedio de cada cátedra.
+Observaciones:
+    · La cantidad de alumnos por curso es indeterminada inicialmente, debe consultarse al usuario si desea seguir ingresando información o no.
+    · Se considera aprobado cualquier nota mayor o igual a 4
+'''
 
 totalAlumnos = 0
 totalDesaprobados = 0

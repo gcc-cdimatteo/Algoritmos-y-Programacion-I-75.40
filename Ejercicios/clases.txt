@@ -1,0 +1,18 @@
+c1 - Condicionales IF. IF anidados. Switch-Case.
+c2 - Iteraciones. While - For. Ciclos definidos e indefinidos. Ciclos infinitos. Ciclos anidados. Break and continue.
+c3 - Ejercicios de ciclos y condicionales.
+c4 - Strings. Inmutabilidad. String methods. Operador in. String Slicing.
+c5 - Listas. Mutabilidad. Listas Vs String.  Slicing en listas. List Methods.
+c6 - Uso de funciones de Python. Importar funciones. Por qué usar funciones. Escribir nuestra propia función. Funciones Vs Procedimientos. Usando funciones. Función main. 
+c7 - Pasaje de parámetros. Variables locales y globales. Haciendo las funciones reusables. Documentación de funciones.
+c8 - Recursión. Ejercitación integral
+c9 - Tuplas y diccionarios. Matrices y Vectores. Tipos de datos propios. Ejercitación integradora. 
+c10 - Búsqueda y ordenamiento. Búsqueda binaria y lineal. Ordenamiento burbuja.
+c11 - Archivos. Persistencia. Lectura y escritura. Files names & Paths. Archivos de texto.
+c17 - Map, Filter, lambda y reduce. List comprenhension. Dict comprehension. Sets
+c18 - Archivos binarios. Archivos secuenciales. Manejo de excepciones. Operaciones con varios archivos.
+c23 - POO en Python
+c24 - C Parte 1
+c25 - C Parte 2
+c26 - C Parte 3
+c27 - C Parte 4
