@@ -1,6 +1,5 @@
 c1 - Condicionales IF. IF anidados. Switch-Case.
 c2 - Iteraciones. While - For. Ciclos definidos e indefinidos. Ciclos infinitos. Ciclos anidados. Break and continue.
-c3 - Ejercicios de ciclos y condicionales.
 c4 - Strings. Inmutabilidad. String methods. Operador in. String Slicing.
 c5 - Listas. Mutabilidad. Listas Vs String.  Slicing en listas. List Methods.
 c6 - Uso de funciones de Python. Importar funciones. Por qué usar funciones. Escribir nuestra propia función. Funciones Vs Procedimientos. Usando funciones. Función main. 
