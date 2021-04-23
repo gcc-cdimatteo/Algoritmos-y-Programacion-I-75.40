@@ -1,6 +1,5 @@
 /*
-Dado un string, programe una función que invierta el string y lo imprima. Además, en caso de haber
-una e deberá ser reemplazada por una a.
+Dado un string, programe una función que invierta el string y lo imprima. Además, en caso de haber una e deberá ser reemplazada por una a.
 Ej.: void invertiString(char palabra []);
 madera
 >>> aradam
