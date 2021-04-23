@@ -76,7 +76,12 @@ for mes in range(CANT_MESES):
         print("Mayo: {0:.{1}f}°C".format(promedioMes5, 1))
 
 
-if promedioMes1 > promedioMes2:
+if(promedioMes1 == promedioMes2 and promedioMes2 == promedioMes3 and 
+   promedioMes3 == promedioMes4 and promedioMes4 == promedioMes5):
+
+    print("Todos los meses tienen el mismo promedio de temperatura")
+
+elif promedioMes1 > promedioMes2:
 
     if promedioMes1 > promedioMes3:
 
@@ -195,12 +200,9 @@ elif promedioMes4 > promedioMes5:
         )
     )
 
-elif promedioMes5 > promedioMes4:
+else:
     print("\nEl mes de Mayo, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
         .format(
             promedioMes5, 1
         )
     )
-
-else:
-    print("Todos los meses tienen el mismo promedio de temperatura")
