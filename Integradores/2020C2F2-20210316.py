@@ -264,8 +264,8 @@ def procesar_informacion():
     plataformas = []
     usuarios = []
 
-    plataformas_data = leer_archivo("plataformas.csv")
-    usuarios_data = leer_archivo("usuarios.csv")
+    plataformas_data = leer_archivo("2020C2F2-20210316-plataformas.csv")
+    usuarios_data = leer_archivo("2020C2F2-20210316-usuarios.csv")
 
     for x in range(len(plataformas_data)):
 
