@@ -1,0 +1,25 @@
+	Plantines varios, 50, 45
+	Limonero, 250, 5
+	Cedro, 800, 27
+	Castaño, 600, 42
+	Ciruelo de jardín, 300, 23
+	Ciruelo, 500, 50
+Álamo, 600, 7
+Arce, 1200, 3
+	Tipa, 900, 31
+	Algarrobo, 900, 26
+	Lapacho rosado, 1300, 4
+	Palmera brasileña, 800, 1
+	Jacarandá, 700, 18
+	Palo borracho, 300, 3
+	Peral, 300, 6
+	Olivo, 600, 12
+	Banco de jardín, 4000, 65
+	Cenicero de jardín, 1200, 17
+	Maceta cemento chica, 2300, 39
+	Maceta cemento mediana, 3000, 14
+	Maceta cemento grande, 3500, 9
+	Cespedxm2, 600, 24
+	Geranios, 120, 29
+Lavanda,v80, 21
+Rosales, 250, 20

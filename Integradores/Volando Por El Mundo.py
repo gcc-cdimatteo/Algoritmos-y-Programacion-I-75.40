@@ -18,3 +18,4 @@ d-	Mostrar por pantalla todos los vuelos ordenados por el campo horario.
 e-	Crear 3 archivos de textos uno por cada estado, que contenga la información de todos los vuelos ordenada por horario. Los archivos se deberán llamar, estimado.txt, demorado.txt y aterrizando.txt
 Aclaración: Recuerde que es un programa, con lo cual deberá tener funciones y programa principal.
 '''
+

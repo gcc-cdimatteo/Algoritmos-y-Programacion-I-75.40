@@ -1,0 +1,12 @@
+	Cenicero de jardín, 3
+	Banco de plaza, 35
+	Plantines varios, 20
+	Geranios, 5
+Lavanda,8
+Maceta cemento mediana, 3
+Maceta cemento grande, 2
+Rosales,5
+Álamo,4
+Arce,1
+Cespedxm2, 20
+Limonero, 1
