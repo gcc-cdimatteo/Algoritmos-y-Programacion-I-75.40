@@ -81,6 +81,63 @@ if(promedioMes1 == promedioMes2 and promedioMes2 == promedioMes3 and
 
     print("Todos los meses tienen el mismo promedio de temperatura")
 
+elif (promedioMes1 > promedioMes2 and promedioMes1 > promedioMes3 and
+      promedioMes1 > promedioMes4 and promedioMes1 > promedioMes5):
+
+    print("\nEl mes de Enero, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
+        .format(
+            promedioMes1, 1
+        )
+    )
+
+elif (promedioMes2 > promedioMes3 and promedioMes2 > promedioMes4 and
+      promedioMes2 > promedioMes5 and promedioMes2 > promedioMes1):
+      
+    print("\nEl mes de Febrero, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
+        .format(
+            promedioMes2, 1
+        )
+    )
+
+elif (promedioMes3 > promedioMes4 and promedioMes3 > promedioMes5 and
+      promedioMes3 > promedioMes1 and promedioMes3 > promedioMes2):
+      
+    print("\nEl mes de Marzo, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
+        .format(
+            promedioMes3, 1
+        )
+    )
+
+elif (promedioMes4 > promedioMes5 and promedioMes4 > promedioMes1 and
+      promedioMes4 > promedioMes2 and promedioMes4 > promedioMes3):
+      
+    print("\nEl mes de Abril, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
+        .format(
+            promedioMes4, 1
+        )
+    )    
+
+elif (promedioMes5 > promedioMes1 and promedioMes5 > promedioMes2 and
+      promedioMes5 > promedioMes3 and promedioMes5 > promedioMes4):
+      
+    print("\nEl mes de Mayo, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
+        .format(
+            promedioMes5, 1
+        )
+    )
+
+else:
+    print("Hay dos meses con el mismo promedio de temperatura")    
+
+
+'''
+#Versión larga
+
+if(promedioMes1 == promedioMes2 and promedioMes2 == promedioMes3 and 
+   promedioMes3 == promedioMes4 and promedioMes4 == promedioMes5):
+
+    print("Todos los meses tienen el mismo promedio de temperatura")
+
 elif promedioMes1 > promedioMes2:
 
     if promedioMes1 > promedioMes3:
@@ -206,3 +263,4 @@ else:
             promedioMes5, 1
         )
     )
+'''
