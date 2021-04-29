@@ -91,7 +91,7 @@ elif (promedioMes1 > promedioMes2 and promedioMes1 > promedioMes3 and
     )
 
 elif (promedioMes2 > promedioMes3 and promedioMes2 > promedioMes4 and
-      promedioMes2 > promedioMes5 and promedioMes2 > promedioMes1):
+      promedioMes2 > promedioMes5):
       
     print("\nEl mes de Febrero, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
         .format(
@@ -99,8 +99,7 @@ elif (promedioMes2 > promedioMes3 and promedioMes2 > promedioMes4 and
         )
     )
 
-elif (promedioMes3 > promedioMes4 and promedioMes3 > promedioMes5 and
-      promedioMes3 > promedioMes1 and promedioMes3 > promedioMes2):
+elif (promedioMes3 > promedioMes4 and promedioMes3 > promedioMes5):
       
     print("\nEl mes de Marzo, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
         .format(
@@ -108,8 +107,7 @@ elif (promedioMes3 > promedioMes4 and promedioMes3 > promedioMes5 and
         )
     )
 
-elif (promedioMes4 > promedioMes5 and promedioMes4 > promedioMes1 and
-      promedioMes4 > promedioMes2 and promedioMes4 > promedioMes3):
+elif (promedioMes4 > promedioMes5):
       
     print("\nEl mes de Abril, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
         .format(
@@ -117,17 +115,12 @@ elif (promedioMes4 > promedioMes5 and promedioMes4 > promedioMes1 and
         )
     )    
 
-elif (promedioMes5 > promedioMes1 and promedioMes5 > promedioMes2 and
-      promedioMes5 > promedioMes3 and promedioMes5 > promedioMes4):
-      
+else:
     print("\nEl mes de Mayo, fue el mes con mayor temperatura promedio, con un promedio de {0:.{1}f}°C"
         .format(
             promedioMes5, 1
         )
     )
-
-else:
-    print("Hay dos meses con el mismo promedio de temperatura")    
 
 
 '''
