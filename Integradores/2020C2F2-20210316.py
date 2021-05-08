@@ -83,14 +83,14 @@ def validar_opcion(opcion,  # type: str
     #       por parámetro, es un número y si se encuentra dentro del 
     #       rango de las posibles opciones a elegir
 
-    option_number = 0
-    flag_valid_option = False
+    opcion_numero = 0
+    flag_opcion_valida = False
 
     if opcion.isnumeric():
-        option_number = int(opcion)
+        opcion_numero = int(opcion)
 
-        if option_number > 0 and option_number <= len(opciones):
-            flag_valid_option = True
+        if opcion_numero > 0 and opcion_numero <= len(opciones):
+            flag_opcion_valida = True
 
         else:
             print(f"\n¡Sólo puedes ingresar una opción entre el 1 y el {len(opciones)}!")
@@ -98,7 +98,7 @@ def validar_opcion(opcion,  # type: str
     else:
         print(f"\n¡Las opciones son numeros enteros, sin decimales!")
 
-    return flag_valid_option
+    return flag_opcion_valida
 
 
 def validar_opcion_ingresada():
@@ -144,7 +144,7 @@ def obtener_entrada_usuario(opciones  # type: list[str]
 
 
 def leer_archivo(ruta_archivo  # type: str
-              ):
+                 ):
 
     # PRE: 'ruta_archivo', debe ser una variable de tipo str
     # POST: Devuelve una lista, que representa a las lineas leidas del archivo  
