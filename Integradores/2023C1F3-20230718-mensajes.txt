@@ -1,0 +1,63 @@
+100,Continue,indica al navegador que continúe haciendo su petición
+101,Switching Protocols,indica al navegador que acepta el cambio de protocolo pedido
+102,Processing,indica al navegador que ha recibido la petición y está aun procesándola
+103,Checkpoint,reanudará una petición cancelada con anterioridad
+200,OK,todo se ha procesado de forma correcta
+201,Created,la petición se ha procesado y como resultado se ha creado un nuevo recurso
+202,Accepted,la petición ha sido aceptada pero todavía no se ha completado.
+203,Non-Authoritative Information,indica que la petición se ha completado, pero se ha obtenido el recurso de otro servidor.
+204,No Content,la petición se ha procesado con éxito, pero el resultado está vacío.
+205,Reset Content,igual que el anterior, pero indicando al navegador que debe inicializar la página desde la que se realizó la petición.
+206,Partial Content,se está devolviendo el contenido pedido de forma parcial. Útil para reanudar descargas que se han pausado.
+207,Multi-Status,devuelve varias peticiones a la vez.
+208,Already Reported,ya se devolvió el listado de elementos, así que no se vuelve a listar
+300,Multiple Choices,indica al navegador que existen varias alternativas para el contenido que ha pedido. Por ejemplo, un vídeo puede estar disponible en distintos formatos o calidades.
+301,Moved Permanently,la página que estás buscando no está aquí y se ha movido permanentemente a una nueva ubicación.
+302,Found,indica que la página o recurso está disponible en otra ubicación.
+303,See Other,igual al anterior.
+304,Not Modified,indica al navegador que la página no se ha modificado desde la última vez que se pidió. Así se puede evitar descargarla de nuevo, ahorrando ancho de banda.
+305,Use Proxy,este recurso solo está disponible desde un proxy.
+306,Switch Proxy,Este código ya no se usa.
+307,Temporary Redirect,indica al navegador que este recurso o página se ha movido de sitio, pero todavía está disponible en esta dirección.
+308,Permanent Redirect,similar al código 301, la página ha cambiado de lugar permanentemente.
+400,Bad Request,algo ha ido mal con la petición. Si recibes este error, prueba a refrescar la página o actualizar tu navegador.
+401,Unauthorized,no tienes permiso para recibir ese contenido.
+402,Payment Required,en desuso por ahora.
+403,Forbidden,la petición es correcta pero el servidor se niega a ofrecerte el recurso o página web. Es posible que necesites una cuenta en el servicio e iniciar sesión antes de poder acceder.
+404,Not Found,indica que el recurso no está disponible en el servidor.
+405,Method Not Allowed,no se permite el uso de ese método.
+406,Not Acceptable,la petición solo puede generar un tipo de contenido distinto al que se especificó como aceptable.
+407,Proxy Authentication Required,se requiere al cliente que se identifique mediante un proxy.
+408,Request Timeout,el servidor ha pasado demasiado tiempo esperando una respuesta por parte del cliente.
+409,Conflict,la petición no se pudo completar porque hubo un problema con ella.
+410,Gone,esa página no existe, se borró. Este código es usado por buscadores como Google, que usan la información para eliminar contenido de su base de datos.
+411,Length Required,el cliente debía indicar la longitud del contenido, pero no lo hizo.
+412,Precondition Failed,el servidor no cumple las condiciones previas que se indicaban en la petición.
+413,Payload Too Large,la petición es demasiado larga y el servidor se niega a procesarla.
+414,URI Too Long,la dirección web es demasiado larga. Si recibes este error, difícilmente podrás solucionarlo pues no es problema tuyo, sino de la página que generó dicho enlace.
+415,Unsupported Media Type,el tipo de archivo que se ha recibido es distinto al que se esperaba.
+416,Range Not Satisfiable,el cliente ha pedido una porción de un recurso que es incorrecta.
+417,Expectation Failed,el servidor no puede cumplir con las expectaciones de la cabecera.
+418,I'm a teapot,es un código de estado que nació como una broma de April's Fools. Puedes recibir uno visitando esta web.
+421,Misdirected Request,el servidor es incapaz de producir una respuesta.
+422,Unprocessable Entity,la petición era correcta pero tenía algún error semántico.
+423,Locked,este recurso está bloqueado.
+424,Failed Dependency,este recurso depende de otra respuesta, que falló.
+426,Upgrade Required,el cliente debe usar un protocolo distinto.
+428,Precondition Required,el servidor requiere que la petición sea condicional.
+429,Too Many Requests,se han enviado demasiadas peticiones en un corto período de tiempo.
+431,Request Header Fields Too Large,la cabecera o algunos de los campos de la cabecera son demeasiado grandes.
+452,Unavailable for Legal reasons,el servidor deniega el accceso a este recurso por motivos legales.
+500,Internal Server Error,es un error genérico que indica que hay un problema en el servidor.
+501,Not Implemented,el servidor aun no ha implementado el método que se ha pedido, aunque es probable que se añada en un futuro.
+502,Bad Gateway,el servidor está actuando como un proxy o gateway y ha recibido una respuesta inválida del otro servidor.
+503,Service Unavailable,establece que el servidor no está disponible en ese momento
+504,Gateway Timeout,el servidor está actuando como una gateway o proxy y no recibió respuesta del servidor.
+505,HTTP Version Not Supported,el servidor no soporta la versión del protocolo HTTP que se le pidió.
+506,Variant Also Negotiates,la petición resulta en una petición con referencias circulares.
+507,Insufficient Storage,el servidor no tiene espacio suficiente para completar la petición.
+508,Loop Detected,el servidor ha detectado un bucle infinito.
+510,Not Extended,el servidor requiere de extensiones para completar la petición.
+511,Network Authentication Required,el cliente necesita identificarse.
+
+

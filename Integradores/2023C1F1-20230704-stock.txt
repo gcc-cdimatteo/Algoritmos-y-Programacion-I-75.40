@@ -1,0 +1,16 @@
+papa,800
+tomate,1000
+lechuga,500
+cebolla,150
+pollo,2000
+carne,900
+pan rallado,250
+salsa tomate,150
+muzzarella,500
+aceite girasol,1500
+pan hamburguesa,12
+panceta,200
+huevo,6
+harina,500
+palta,2
+tubo de calamar,600

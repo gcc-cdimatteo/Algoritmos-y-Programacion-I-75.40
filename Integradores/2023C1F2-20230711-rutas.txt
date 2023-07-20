@@ -1,0 +1,2 @@
+1,Tour1,2023-07-11,10,19000,Algeciras,Barcelona,Napoles,Palermo
+2,Tour2,2023-08-11,24,45000,Algeciras,Valencia,Barcelona,Marsella,Napoles,Palermo

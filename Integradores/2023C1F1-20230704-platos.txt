@@ -1,0 +1,9 @@
+1,Pure de papas,1500,papa,350
+2,Ensalada mixta,1500,tomate,200,lechuga,100,cebolla,50
+3,Pollo al horno con papas,1500,pollo,450,papa,300
+4,Milanesa napolitana,1500,carne,200,pan rallado,60,salsa tomate,20,muzzarella,50
+5,ñoquis de palta,1500,papa,250,harina,80,palta,1,
+6,papas fritas,1500,papa,350,aceite girasol,300
+7,rabas,1500,tubo de calamar,300,harina,200,huevo,1,aceite girasol,300
+8,hamburguesa con queso,1500,carne,200,muzzarella,80,pan hamburguesa,1
+9,hamburguesa completa,1500,carne,200,muzzarella,80,pan hamburguesa,1,panceta,50,huevo,1,papa,150,aceite de girasol,300
