@@ -1,0 +1,5 @@
+
+1,fumigación de mosquitos por motofumigadora,800
+2,control con cebos para roedores, 1200
+3,fumigación de insectos y cucarachas,800
+4,control de aves (palomas y cotorras),2500
